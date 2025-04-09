@@ -4,4 +4,20 @@
   <artifactId>samaphore</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>samagrafo</name>
+  <properties>
+  <mavem.compiler.target>17</mavem.compiler.target>
+  <mavem.compiler.source>17</mavem.compiler.source>
+  </properties>
+  <dependencies>
+  
+  <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+<dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-api</artifactId>
+    <version>5.13.0-M2</version>
+    <scope>test</scope>
+</dependency>
+  
+  </dependencies>
+  
 </project>

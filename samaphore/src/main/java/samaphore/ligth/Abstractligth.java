@@ -1,6 +1,6 @@
 package samaphore.ligth;
 
-public class simpleligth implements ligth{
+public class Abstractligth implements ligth{
 	
 	private OnOff state = OnOff.OFF;
 
